@@ -14,6 +14,8 @@ from .const import NUMBER_DEVICE_CLASSES, RESERVED_KEYS
 
 _LOGGER = logging.getLogger(__name__)
 
+PARALLEL_UPDATES = 1
+
 
 async def async_setup_entry(
     hass: HomeAssistant,

@@ -18,6 +18,7 @@ from . import MyPVCoordinator
 
 _LOGGER = logging.getLogger(__name__)
 
+PARALLEL_UPDATES = 1
 
 BUTTON_DESCRIPTIONS = {
     "reboot_device": ButtonEntityDescription(
